@@ -4,13 +4,15 @@
 
 body {
   padding: 0;
-  margin: 0;
+  width: 50%;
+  margin: 8em auto;
 }
 
 .calc {
   width: 400px;
-  background-color: black;
+  background-color: rgb(56, 52, 52);
   color: white;
+  margin: auto;
 }
 
 .screen {
@@ -49,16 +51,16 @@ body {
 }
 
 .calc-button:last-child {
-  background-color: #df974c;
+  background-color: #564cdf;
   color: white;
 }
 
 .calc-button:last-child:hover {
-  background-color: #dfb07e;
+  background-color: #d799f6;
 }
 
 .calc-button:last-child:active {
-  background-color: #dd8d37;
+  background-color: #d46ff8;
 }
 
 .calc-button-row {
