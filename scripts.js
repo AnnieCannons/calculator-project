@@ -58,21 +58,21 @@ screenVariable.textContent = 0
 });
 
 goBack.addEventListener("click", function(){
-    if(valueOneFromUser.length>1){
-        valueOneFromUser = valueOneFromUser.slice(0, -1)
-        screenVariable.textContent=valueOneFromUser
-    } else if(valueOneFromUser.length===1){
-        valueOneFromUser=""
-        screenVariable.textContent="0"
-    }
-
-    if(valueTwoFromUser.length>1){
+    if(valueTwoFromUser.length > 1){
         valueTwoFromUser = valueTwoFromUser.slice(0, -1)
-        screenVariable.textContent=valueTwoFromUser
-    } else if(valueTwoFromUser.length===1){
-        valueTwoFromUser=""
+        screenVariable.textContent= valueTwoFromUser;
+    } else if(valueTwoFromUser.length === 1){
+        valueTwoFromUser = ""
+        screenVariable.textContent = "0"
+    } else if(currentOperator !== ""){
+        currentOperator = ""
+    } else if(valueOneFromUser.length > 1){
+        valueOneFromUser = valueOneFromUser.slice(0, -1)
+        screenVariable.textContent = valueOneFromUser
+    }  else if(valueOneFromUser.length === 1){
+        valueOneFromUser = ""
         screenVariable.textContent="0"
-    }
+    } 
 })
 
 function doMath(value1, operator, value2){
