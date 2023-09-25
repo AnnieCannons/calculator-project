@@ -8,7 +8,7 @@ We are going to rebuild the calculator using JavaScript! If you're not a big cal
 
 Let's go over the requirements:
 
-1. Open the HTML file in your browers and take a look at the HTML and CSS files for the calculator.
+1. Open the HTML file in your browser and take a look at the HTML and CSS files for the calculator.
 2. Once you're done, the calculator should function like a normal calculator .
 3. Do not implement % or .. You can assume everything will be an integer.
 4. C means clear. When a user clicks it, it should clear everything and go back to the first state it was in when the page loaded.
