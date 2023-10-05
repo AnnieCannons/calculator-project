@@ -4,13 +4,15 @@
 
 body {
   padding: 0;
-  margin: 0;
+  width: 50%;
+  margin:3em auto;
 }
 
 .calc {
   width: 400px;
   background-color: black;
   color: white;
+  margin: 3em auto;
 }
 
 .screen {
@@ -22,7 +24,7 @@ body {
 }
 
 .calc-button {
-  background-color: #d8d9db;
+  background-color: #28d6e5;
   color: black;
   height: 100px;
   width: 24.5%;
@@ -33,11 +35,11 @@ body {
 }
 
 .calc-button:hover {
-  background-color: #ebebeb;
+  background-color: #a40a88;
 }
 
 .calc-button:active {
-  background-color: #bbbcbe;
+  background-color: #fd95f6;
 }
 
 .double {
@@ -50,7 +52,7 @@ body {
 
 .calc-button:last-child {
   background-color: #df974c;
-  color: white;
+  color: rgba(226, 246, 242, 0.932);
 }
 
 .calc-button:last-child:hover {
